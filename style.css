@@ -1,0 +1,76 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para a seção de produtos em destaque */
+main section:nth-child(odd) {
+    background-color: #fff;
+    padding: 20px;
+}
+
+main section:nth-child(even) {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilize os links de forma consistente em todo o site */
+a {
+    text-decoration: none;
+    color: #0074cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.descricao {
+    width: 50%;
+}
