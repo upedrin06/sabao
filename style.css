@@ -74,3 +74,9 @@ a:hover {
 .descricao {
     width: 50%;
 }
+
+@media screen and (max-width:600px) {
+    .descricao {
+        width: 100%;
+    }
+}
